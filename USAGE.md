@@ -6,7 +6,6 @@ import (
 	"context"
 	test2 "github.com/speakeasy-sdks/test-2"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -17,8 +16,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }

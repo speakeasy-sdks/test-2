@@ -3,18 +3,19 @@ id: 10b47366-188f-4d2c-9253-917d41aa4caa
 management:
   docChecksum: 21c25ca8a734b4fb704e98d966524ee0
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.272.4
-  releaseVersion: 0.6.2
-  configChecksum: 02d8f498420b1eebfcfe3f8a0a2e52ba
+  speakeasyVersion: 1.204.1
+  generationVersion: 2.279.1
+  releaseVersion: 0.7.0
+  configChecksum: bb67c85f3bb310119fe2baf0aab5b1ce
   repoURL: https://github.com/speakeasy-sdks/test-2.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-2
   published: true
 features:
   go:
-    core: 3.4.3
+    core: 3.4.4
     globalServerURLs: 2.82.1
+    responseFormat: 0.1.0
 generatedFiles:
   - pets.go
   - a.go
